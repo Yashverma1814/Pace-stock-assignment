@@ -1,0 +1,113 @@
+/* <====card=====> */
+.loginCardMain{
+    width: 25%;
+    text-align: center;
+    border: 0.1px solid gray;
+    border-radius: 20px;
+    background-color: white !important;
+    
+}
+.cardContent{
+    padding: 1.5rem;
+}
+.topImage{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.welcomeHeading{
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: rgb(147, 11, 245);
+    margin-bottom: 0.3rem;
+}
+
+.loginSubHeading{
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.loginInput{
+    width: 99%;
+    margin-top: 0.5rem;
+}
+.linkDiv{
+    width: 99%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.create{
+    text-align: left;
+    margin-left: 1.2rem;
+}
+.forgot{
+    text-align: right;
+}
+
+.signInBtn{
+    padding: 0.9rem;
+    width: 99%;
+    border: none;
+    font-size: 0.9rem;
+    background-color: rgb(147, 11, 245);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.signInBtn:hover{
+    transition: 0.3s;
+    background-color: rgb(161, 45, 244);
+}
+.googleSignIn{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0.5rem;
+    width: 99%;
+    border: none;
+    font-size: 0.9rem;
+    background-color: white;
+    color: black;
+    border: 0.1px solid gray;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.googleSignIn:hover{
+    transition: 0.3s;
+    background-color: rgb(236, 230, 222);
+}
+.githubSignIn{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0.5rem;
+    width: 99%;
+    border: none;
+    font-size: 0.9rem;
+    background-color: white;
+    color: black;
+    border: 0.1px solid gray;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;  
+}
+.githubSignIn:hover{
+    transition: 0.3s;
+    background-color: rgb(236, 230, 222);
+}
+
+
+/* <======page======> */
+
+
+.loginPageMain{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: rgb(147, 11, 245);
+}

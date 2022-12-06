@@ -1,4 +1,4 @@
-
+import './css/login/loginPage.css'
 import './App.css';
 import { LoginPage } from './Pages/LoginPage';
 

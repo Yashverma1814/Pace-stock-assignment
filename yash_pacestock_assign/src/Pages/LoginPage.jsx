@@ -3,8 +3,10 @@ import { LoginCard } from '../components/loginComp/LoginCard'
 
 export const LoginPage = () => {
   return (
-    <div>
-        <LoginCard />
-    </div>
+    <div className='main'>
+        <div className='loginPageMain'>
+            <LoginCard />
+        </div>
+    </div>  
   )
 }
