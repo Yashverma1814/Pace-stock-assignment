@@ -16,7 +16,7 @@ export const LoginCard = () => {
                 <div className='create'>Create Account</div>
                 <div className='forgot'>Forgot Password</div>
             </div>
-            <div><button className='signInBtn'> <a href="/homepage"> Sign in </a></button></div>
+            <div><a href="/homepage"><button className='signInBtn'>  Sign in </button></a></div>
             <div><button className='googleSignIn'><div><GoogleIcon /></div><div style={{paddingTop:'5px',marginLeft:'0.3rem'}}>Sign in with Google</div></button></div>
             <div><button className='githubSignIn'><div><GitHubIcon /></div><div style={{paddingTop:'5px',marginLeft:'0.3rem'}}>Sign in with Github</div></button></div>
         </div>
