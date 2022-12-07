@@ -3,6 +3,7 @@ import ExplicitIcon from '@mui/icons-material/Explicit';
 
 
 export const HomePageNav = () => {
+  
   return (
     <div>
         <div className='navMain'>
